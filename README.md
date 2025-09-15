@@ -1,18 +1,23 @@
 # HackerNews-Reader-ES 🌎📰🔊
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
-[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
+
 
 Una herramienta en Python para extraer, traducir y leer noticias de The Hacker News en español con síntesis de voz integrada.
 
 ## ✨ Características
 
-- 📰 **Extracción de noticias**: Obtiene titulares y contenido completo de The Hacker News
-- 🌎 **Traducción automática**: Traduce contenido inglés → español en tiempo real
-- 🔊 **Texto a voz**: Lee las noticias en voz alta con calidad de audio
-- 🎯 **Interfaz interactiva**: Menú fácil de usar con navegación intuitiva
-- ⚡ **Tiempo real**: Contenido actualizado al momento de la ejecución
-- 🔧 **Configurable**: Opciones para elegir qué contenido escuchar
+- 📰 **Titulares y artículos**: Extrae los últimos titulares y contenido completo de The Hacker News.
+- 🌐 **Traducción automática**: Traducción en tiempo real del inglés al español usando `googletrans`.
+- 🔊 **Texto a voz**: Reproduce el contenido traducido en voz alta usando `gTTS` y `pygame`.
+- 🧠 **Interfaz por consola**: Menú interactivo fácil de usar.
+- 🎯 **Opciones de lectura**: Escucha el título, un resumen o el artículo completo.
+- ⚙️ **Configuración básica**: Personalizable desde el código (idioma, velocidad, etc.).
+
+## 📦 Requisitos
+
+- Python 3.8 o superior
+- Conexión a internet (para scraping, traducción y TTS)
 
 ## 🚀 Instalación Rápida
 
@@ -26,3 +31,18 @@ pip install -r requirements.txt
 
 # Ejecutar la aplicación
 python main.py
+```
+
+## ⚙️ Instalación Rápida
+
+Este proyecto está en constante evolución. En próximas versiones, se planea implementar un entorno gráfico (GUI) que permita:
+
+Controlar la reproducción de audio con botones de Play, Pause y Stop.
+
+Navegar entre artículos y titulares con una interfaz visual amigable.
+
+Mejorar la experiencia del usuario dejando atrás la terminal para ofrecer un uso mucho más intuitivo y atractivo.
+
+Añadir configuraciones avanzadas, como selección de voces, velocidad y más.
+
+Esta mejora representará un salto abismal en usabilidad y facilitará el acceso a las noticias para todo tipo de usuarios, haciendo de esta herramienta algo completo, moderno y accesible.
